@@ -6,7 +6,7 @@ Ein Template, was ich über die Jahre zusammengestellt habe mit allem wichtigen 
 ## How to use?
 
 ```shell
-git clone https://github.com/alexanderwallau/Abgabentemplate.git
+git clone https://github.com/alexanderwallau/Abgabe-template.git
 cd Abgabentemplate
 cp -r . /wohin/auch/immer/die/workdir/ist
 ```
