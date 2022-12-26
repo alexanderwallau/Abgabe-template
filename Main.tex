@@ -1,0 +1,55 @@
+\documentclass[a4paper,dvipsnames]{article} 
+\input{style/head.tex}
+\usepackage{polynom}
+\usepackage{hyperref}
+% Was man mal so an packages braucht:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%Ruiniert leider das formatting
+\usepackage[varg]{txfonts}
+\usepackage{csquotes}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{empheq}  
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+\usepackage{subfig}
+\graphicspath{{figs/}}
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows, matrix}
+\allowdisplaybreaks
+
+% Schöne Subsections
+\usepackage{titlesec}
+\titleformat{\subsection}[runin]
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsesubction}[runin]
+{\normalfont\large\bfseries}{\thesubsubsection}{1em}{}
+
+% Header fillings
+\newcommand{\nameA}{404}  % Dein Name hier
+\newcommand{\nameB}{Author}  % Dein Kumpel hier
+\newcommand{\nameC}{not found}
+%\newcommand{\matrnrA}{(3179187)}    % Deine Matrikelnummer hier
+%\newcommand{\matrnrB}{(1234567)}   % Die Matrikelnummer deines Kumpels hier
+\newcommand{\yourgroup}{Gruppe 42}   % Deine Gruppe hier
+%\newcommand{\assignmentnumber}{10}   % Hier die Nummer des Übungsblatts
+
+\newcommand{\qedwhite}{\hfill \ensuremath{\Box}}
+
+\begin{document}
+%Header
+\input{style/header.tex}
+%Macros
+\input{style/macros.tex}
+%Tikzquark
+\tikzset{->, >=stealth, node distance=3cm, every state/.style={thick, fill=gray!10}, initial text=$ $,}
+\onehalfspacing
+\tableofcontents
+
+\end{document}
