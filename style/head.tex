@@ -15,6 +15,9 @@
 \usepackage{float} % Improved interface for floating objects
 \usepackage{hyperref} % For hyperlinks in the PDF
 \usepackage{graphicx, multicol} % Enhanced support for graphics
+\graphicspath{{figs/}}
+\setlength{\columnsep}{1cm}
+\usepackage{subfig}
 \usepackage{xcolor} % Driver-independent color extensions
 \usepackage{pseudocode} % Environment for specifying algorithms in a natural way
 \usepackage{enumitem} % für a) b) c) bei enumerate
@@ -22,6 +25,21 @@
 % \usepackage[yyyymmdd]{datetime} % Uses YEAR-MONTH-DAY format for dates
 \usepackage{algorithm2e}
 \usepackage{algorithmicx} %For Pseudocode
+\usepackage{polynom} %For Polynoms
+\usepackage[T1]{fontenc} %Fonts
+\usepackage[varg]{txfonts}
+\usepackage{csquotes} %Propper Quotes
+%Tikz with standard libs
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows, matrix}
+\allowdisplaybreaks
+
+% Nice Subsections for an assignment sheet
+\usepackage{titlesec}
+\titleformat{\subsection}[runin]
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsesubction}[runin]
+{\normalfont\large\bfseries}{\thesubsubsection}{1em}{}
 
 
 \usepackage{fancyhdr} % Headers and footers
