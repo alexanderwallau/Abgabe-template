@@ -1,6 +1,7 @@
-# Abghabe Template
+# Abgabe Template
 
 Ein Template, was ich über die Jahre zusammengestellt habe mit allem wichtigen für die Bearbeitung von Übungszetteln
+
 ---
 
 ## How to use?
