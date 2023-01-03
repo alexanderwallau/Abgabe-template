@@ -1,6 +1,6 @@
 # Abgabe Template
 
-Ein Template, was ich über die Jahre zusammengestellt habe mit allem wichtigen für die Bearbeitung von Übungszetteln
+Ein Template, welches ich über die Jahre zusammengestellt habe mit allem wichtigen für die Bearbeitung von Übungszetteln.
 
 ---
 
@@ -8,8 +8,8 @@ Ein Template, was ich über die Jahre zusammengestellt habe mit allem wichtigen 
 
 ```shell
 git clone https://github.com/alexanderwallau/Abgabe-template.git
-cd Abgabentemplate
-cp -r . /wohin/auch/immer/die/workdir/ist
+cd Abgabe-template
+cp -r src/* /wohin/auch/immer/die/workdir/ist
 ```
 
 Jetzt noch Werte in ``header.tex`` anpassen, sowie die Namen in ``Main.tex`` und ab gehts
